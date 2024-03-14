@@ -1,0 +1,97 @@
+<html>
+	<head>
+	    <link rel="stylesheet" href="styling.css">
+	</head>
+	<body class="forms">
+	<header>
+    <h1>Movie Website</h1>
+	</header>
+		<center>
+			<form method = "get" action = "Login-Page.html" target="_self">
+				<table cellpadding = "3" cellspacing = "3"  border = "10" bgcolor = "white" bordercolor = "gray" style="width:40%; height:90%" >
+					<tr>
+						<td valign = "center" align = "center" colspan = "2" ><font size = "7"><b> Registration Form</b></font></td>
+					</tr>
+					
+					<tr>
+						<td> First Name </td> 
+						<td > <input type = "text" name = "first name"  required > </td> 
+					</tr>
+					
+					<tr>
+						<td> Last Name </td> 
+						<td> <input type = "text" name = "last name" required > </td> 
+					</tr>
+					
+					<tr>
+						<td> User Name </td> 
+						<td> <input type = "email" name = "user name"  required> </td> 
+					</tr>
+					
+					<tr>
+						<td> Password </td> 
+						<td> <input type = "password" name = "Password" required > </td> 
+					</tr>
+
+					<tr>
+						<td> Foreign Movies Preferences </td> 
+						<td>
+							<select name = "dropdown menu">
+							<option name = "option 1"  required> Iranian </option>
+							<option name = "option 2"	required > Korean </option>
+							<option name = "option 3" required> French </option>
+						</td> 
+					</tr>
+
+					<tr>
+						<td rowspan = "2"> Gender </td> 
+						<td>
+							<input type = "radio" name = "radio1" value = "male" required>Male
+						</td>
+					</tr>
+					<tr>
+						<td> <input type = "radio" name = "radio1" value = "female" required>Female </td> 
+					</tr>
+
+					<tr>
+						<td> Favourites Genres </td> 
+						<td>
+							<label for ="checkbox1">	<input type="checkbox" id="checkbox1" name="checkbox[]" value="Football" required>Action</label>
+							<label for ="checkbox2">	<input type="checkbox" id="checkbox2" name="checkbox[]" value="Basketball">Drama</label>
+							<label for ="checkbox3">	<input type="checkbox" id="checkbox3" name="checkbox[]" value="Games">Crime</label>
+							<br>
+							<label for ="checkbox4">	<input type ="checkbox" id="checkbox4" name ="checkbox[]" value="Reading">Phantasy</label>
+							<label for ="checkbox5">	<input type ="checkbox" id="checkbox5" name ="checkbox[]" value="Swimming">Science Fiction</label>
+							<label for ="checkbox6">	<input type ="checkbox" id="checkbox6" name ="checkbox[]" value="Travel">Historical</label>
+						</td> 
+					</tr>
+
+					<tr>
+						<td> Account Recovery Question </td> 
+						<td>
+							<textarea  name = "textbox" rows = "8" cols = "25" required> </textarea>
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan ="2" align = "center"> 
+							<input type = "submit" name = "submit" >
+							<input type = "reset" name = "reset" >
+						</td> 
+					</tr>
+					
+				</table>
+			</form>
+			<div class="links">
+			<a href="Login-Page.html" target = "_self">Already Have An Account</a>
+			</div>
+			<br><br><br>
+		</center>
+	</body>
+	<footer>
+      <center>  <p>&copy; imdb Movie Website</p> </center>
+    </footer>
+
+
+
+</html>

@@ -1,0 +1,176 @@
+body {
+	background-color:#f4f4f4;
+	font-family: Candara;
+	margin: 0;
+	padding: 0;
+}
+
+#table1{
+	margin-top: 0;
+	margin-left:auto;
+	padding-top: 0;
+}
+
+header{
+	color: white;
+	background-image: url("blue bg2.jpg");
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+	color: white;
+}
+
+h2{
+	color: #0B3064;
+	margin-top: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+
+.moviepages {
+	margin-left:80px;
+	margin-right: 80px;
+}
+
+footer {
+    background-image: url("blue bg2.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	height: 30px;
+}
+
+.footer {
+    background-image: url("blue bg2.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+	height: 30px;
+}
+
+p , pre {
+	color: white;
+	font-size: 18px;
+}
+
+.slideshow{
+	width: 70%;
+	padding: 2rem;
+}
+.container{
+	position: relative; <--3ashan lma n3ml absolute 3ala el navigation-->
+	margin: 0 auto; <--auto 3ashan t get centered horizontal-->
+}
+
+.slides{
+	display: flex; <--3ashan el sowar tegi gamb ba3d-->
+	width: 500px;
+	height: 600px;
+	overflow-x: auto;
+	
+}
+
+.slides img{
+	flex: 1 0 100%; <-- 3ashan yb2a koll el imgs nafs el size w ta5od size el container-->
+}
+
+.navigation{
+	display: flex;
+	position: absolute;
+	column-gap: 30px;
+	bottom: 30px;
+	left: 50%;
+	z-index: 1;
+}
+
+.navigation a{
+	width: 15px;
+	height: 15px;
+	background-color: white;
+}
+
+li a{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+	color: #0B3064;
+}
+
+li a:visited {
+	color: #0B3064;
+}
+
+td a{
+	color: white;
+}
+
+.movietitle {
+	color: white;
+	font-size: 40px;
+	margin: 0;
+}
+
+.movies-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a{
+	color: white;
+	padding-right: 10px;
+}
+
+a:visited {
+	color: white;
+}
+
+#visuals {
+	box-shadow: -5px 7px 25px #F0DF8B
+}
+
+ .top-rated-movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-card {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 10px #F0DF8B
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-info {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.movie-info p {
+	color: black;
+}
+
+.movie-info a {
+	color: #0B3064;
+}
+
+.forms {
+	background-image: url("bluebgop1.png");
+}
+
